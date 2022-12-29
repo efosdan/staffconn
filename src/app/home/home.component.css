@@ -5,9 +5,6 @@
 
 .main-text-box{
     align-items: center;
-    
-    width: 610px;
-    height: 180px;
     margin-left: 50px;
     margin-top: 100px;
     font-family: 'Poppins';
@@ -20,5 +17,9 @@
     letter-spacing: -0.02em;
 
     color: #455A64;
+}
+
+.image-box{
+    margin-right: 50px;
 }
 
