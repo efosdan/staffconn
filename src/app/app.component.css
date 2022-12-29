@@ -1,16 +1,5 @@
-.header {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    width: 1512px;
-    height: 100px;
-    left: 0px;
-    top: 0px;
-    
-    background-color: #1a8742
-    }
-    
-    #logo{
-        color: #1a8742;
-        font-size: larger;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+body {
+   font-family: 'poppin'
+}

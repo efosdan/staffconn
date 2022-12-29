@@ -1,0 +1,25 @@
+.home-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-text-box{
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+/* or 60px */
+
+    letter-spacing: -0.02em;
+
+    color: #455A64;
+}
+
+.image-box{
+    margin-right: 50px;
+}
+
