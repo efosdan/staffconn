@@ -9,12 +9,17 @@ import { FormBuilder, FormGroup, FormControl } from '@angular/forms';
 })
 
 export class RegisterComponent {
- firstname = new FormControl('');
- lastname = new FormControl('');
- email = new FormControl('');
- password = new FormControl('');
- gender = new FormControl('');
- department = new FormControl('');
- jobrole = new FormControl('');
-
+  registerForm = new FormGroup({
+    firstname: new FormControl(''),
+    lastname: new FormControl(''),
+    email: new FormControl(''),
+    password: new FormControl(''),
+    gender: new FormControl(''),
+    department: new FormControl(''),
+    jobrole: new FormControl(''),
+  })
+ 
+  registerUser(){
+    console.log(this.registerForm.value)
+  }
 }
