@@ -1,7 +1,8 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 
  body {
-    font-family: 'poppin'
+    font-family: 'poppin';
+    margin-top: 1px;
  }
 .header {
     display: flex;
@@ -9,6 +10,7 @@
     justify-content: space-between;
     background-color: #FFFFFF;
     height: 100px;
+    align-items: center;
 }
 
 .logo a {
@@ -58,4 +60,5 @@ button{
     border: 0px;
     margin-right: 50px;
     color: #FFFFFF;
+    cursor:pointer;
 }

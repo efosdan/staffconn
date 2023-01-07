@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 
 body {
-   font-family: 'poppin'
+   font-family: 'poppin';
+   background: #F5F5F5;
 }
