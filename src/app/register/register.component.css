@@ -29,9 +29,13 @@
     border: 2px solid #454644;
     border-radius: 30px;
     margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+   
   }
 
   button{
-    margin-left: 100px;
+    margin-left: 150px;
     margin-bottom: 15px;
+    margin-top: 10px;
   }
